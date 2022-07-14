@@ -1,7 +1,7 @@
-import Navigation from "./components/Navigation"
-import Linking from './pages/Linking'
-import Transfer from "./pages/Transfer"
-import { Routes, Route, BrowserRouter, Outlet } from 'react-router-dom'
+import Navigation from "./components/Navigation";
+import Linking from "./pages/Linking";
+import Transfer from "./pages/Transfer";
+import { Routes, Route, BrowserRouter, Outlet } from "react-router-dom";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       </BrowserRouter>
       <div id="sub-app" />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

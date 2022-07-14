@@ -1,4 +1,4 @@
-import { Timeline } from 'antd'
+import { Timeline } from "antd";
 
 const Linking: React.FC = () => (
   <Timeline>
@@ -7,6 +7,6 @@ const Linking: React.FC = () => (
     <Timeline.Item>Technical testing 2015-09-01</Timeline.Item>
     <Timeline.Item>Network problems being solved 2015-09-01</Timeline.Item>
   </Timeline>
-)
+);
 
-export default Linking
+export default Linking;

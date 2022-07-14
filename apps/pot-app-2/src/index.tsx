@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import { reactBridge } from '@garfish/bridge-react-v18';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import { reactBridge } from "@garfish/bridge-react-v18";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 
 const RootComponent = ({ basename }: { basename: string }) => {
@@ -13,7 +13,7 @@ const RootComponent = ({ basename }: { basename: string }) => {
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  )
+  );
 };
 
 export const provider = reactBridge({
